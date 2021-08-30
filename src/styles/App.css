@@ -1,0 +1,29 @@
+.App{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+}
+
+body{
+  overflow: hidden;
+}
+
+.footer span{
+  position: absolute;
+  animation: anim 20s infinite linear;
+}
+
+@keyframes anim {
+  from{
+    left: -50%;
+    transform: translateX(-20%);
+  }
+  to{
+    left: 0%;
+    transform: translateX(200%);
+  }
+}
